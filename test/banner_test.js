@@ -26,6 +26,16 @@ describe('banner', function () {
     )
   }))
 
+  it('Generate module banner', () => co(function * () {
+    yield banner(
+      'module',
+      `${__dirname}/../tmp/testing-sugos-module.svg`,
+      {
+        name: 'sugo-cloud'
+      }
+    )
+  }))
+
   it('Generate plugin banner', () => co(function * () {
     yield banner(
       'plugin',
