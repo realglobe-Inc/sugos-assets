@@ -103,14 +103,14 @@ Assets
 
 | Image | Path |
 | ----- | ---- |
-| <img src="asset/images/nodejs-banner.png" height="36" style="height:36px;" /> | [asset/images/nodejs-banner.png](asset/images/nodejs-banner.png |
-| <img src="asset/images/sugo-cloud-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-cloud-banner.png](asset/images/sugo-cloud-banner.png |
-| <img src="asset/images/sugo-observer-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-observer-banner.png](asset/images/sugo-observer-banner.png |
-| <img src="asset/images/sugo-spot-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-spot-banner.png](asset/images/sugo-spot-banner.png |
-| <img src="asset/images/sugo-terminal-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-terminal-banner.png](asset/images/sugo-terminal-banner.png |
-| <img src="asset/images/sugos-banner.png" height="36" style="height:36px;" /> | [asset/images/sugos-banner.png](asset/images/sugos-banner.png |
-| <img src="asset/images/sugos-favicon.png" height="36" style="height:36px;" /> | [asset/images/sugos-favicon.png](asset/images/sugos-favicon.png |
-| <img src="asset/images/sugos-structure.png" height="36" style="height:36px;" /> | [asset/images/sugos-structure.png](asset/images/sugos-structure.png |
+| <img src="assets/images/nodejs-banner.png" height="36" style="height:36px;" /> | [assets/images/nodejs-banner.png](assets/images/nodejs-banner.png) |
+| <img src="assets/images/sugo-cloud-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-cloud-banner.png](assets/images/sugo-cloud-banner.png) |
+| <img src="assets/images/sugo-observer-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-observer-banner.png](assets/images/sugo-observer-banner.png) |
+| <img src="assets/images/sugo-spot-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-spot-banner.png](assets/images/sugo-spot-banner.png) |
+| <img src="assets/images/sugo-terminal-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-terminal-banner.png](assets/images/sugo-terminal-banner.png) |
+| <img src="assets/images/sugos-banner.png" height="36" style="height:36px;" /> | [assets/images/sugos-banner.png](assets/images/sugos-banner.png) |
+| <img src="assets/images/sugos-favicon.png" height="36" style="height:36px;" /> | [assets/images/sugos-favicon.png](assets/images/sugos-favicon.png) |
+| <img src="assets/images/sugos-structure.png" height="36" style="height:36px;" /> | [assets/images/sugos-structure.png](assets/images/sugos-structure.png) |
 
 
 <!-- Section from "doc/guides/03.Assets.md.hbs" End -->

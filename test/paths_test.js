@@ -7,6 +7,7 @@
 const paths = require('../lib/paths.js')
 const assert = require('assert')
 const co = require('co')
+const fs = require('fs')
 
 describe('paths', function () {
   this.timeout(3000)
@@ -20,7 +21,11 @@ describe('paths', function () {
   }))
 
   it('Paths', () => co(function * () {
-
+    for (let name of Object.keys(paths.images)) {
+      assert.ok(
+        fs.existsSync(paths.images[ name ])
+      )
+    }
   }))
 })
 

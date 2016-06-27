@@ -16,7 +16,7 @@ module.exports = {
 'use strict'
 
 const { join, resolve } = require('path')
-let image = (filename) => join(resolve(__dirname, '../asset/images'), filename)
+let image = (filename) => join(resolve(__dirname, '../assets/images'), filename)
 
 /** Image paths */
 exports.images = {
