@@ -1,0 +1,48 @@
+{
+  "name": "sugos-assets",
+  "version": "1.0.0",
+  "description": "Asset files for sugos",
+  "main": "lib",
+  "scripts": {
+    "test": "./ci/test.js"
+  },
+  "repository": "realglobe-Inc/sugos-assets",
+  "keywords": [
+    "SUGOS",
+    "assets"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/sugos-assets/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/sugos-assets#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "execcli": "^4.0.6",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "ape-covering": "^3.0.3",
+    "ape-formatting": "^1.0.0",
+    "ape-releasing": "^4.0.1",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.2",
+    "ape-testing": "^4.0.0",
+    "ape-tmpl": "^5.0.6",
+    "ape-updating": "^4.0.1",
+    "coz": "^6.0.3",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+  }
+}
