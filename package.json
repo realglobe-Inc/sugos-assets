@@ -1,7 +1,7 @@
 {
   "name": "sugos-assets",
-  "version": "1.0.0",
-  "description": "Asset files for sugos",
+  "version": "1.0.1",
+  "description": "Asset file generator",
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js"
