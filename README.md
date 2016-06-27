@@ -93,6 +93,28 @@ co(function * () {
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/03.Assets.md.hbs" Start -->
+
+<a name="section-doc-guides-03-assets-md"></a>
+Assets
+-----
+
+**Images**
+
+| Image | Path |
+| ----- | ---- |
+| <img src="asset/images/nodejs-banner.png" height="36" style="height:36px;" /> | [asset/images/nodejs-banner.png](asset/images/nodejs-banner.png |
+| <img src="asset/images/sugo-cloud-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-cloud-banner.png](asset/images/sugo-cloud-banner.png |
+| <img src="asset/images/sugo-observer-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-observer-banner.png](asset/images/sugo-observer-banner.png |
+| <img src="asset/images/sugo-spot-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-spot-banner.png](asset/images/sugo-spot-banner.png |
+| <img src="asset/images/sugo-terminal-banner.png" height="36" style="height:36px;" /> | [asset/images/sugo-terminal-banner.png](asset/images/sugo-terminal-banner.png |
+| <img src="asset/images/sugos-banner.png" height="36" style="height:36px;" /> | [asset/images/sugos-banner.png](asset/images/sugos-banner.png |
+| <img src="asset/images/sugos-favicon.png" height="36" style="height:36px;" /> | [asset/images/sugos-favicon.png](asset/images/sugos-favicon.png |
+| <img src="asset/images/sugos-structure.png" height="36" style="height:36px;" /> | [asset/images/sugos-structure.png](asset/images/sugos-structure.png |
+
+
+<!-- Section from "doc/guides/03.Assets.md.hbs" End -->
+
 
 <!-- Sections Start -->
 

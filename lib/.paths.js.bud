@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+
+/**
+ * Bud file for paths
+ */
+
+'use strict'
+
+const path = require('path')
+const expandglob = require('expandglob')
+
+module.exports = {
+  force: true,
+  mode: '444',
+  tmpl: `
+'use strict'
+
+const { join, resolve } = require('path')
+let image = (filename) => join(resolve(__dirname, '../asset/images'), filename)
+
+/** Image paths */
+exports.images = {
+{{#each images}}
+  {{camelcase name}}: image('{{filename}}'){{#if @last}}{{else}},{{/if}}
+{{/each}}
+}
+`,
+  data: {
+    images: expandglob.sync('*.*', { cwd: `${__dirname}/../assets/images` }).map((filename) => ({
+      filename, name: path.basename(filename, path.extname(filename))
+    }))
+  }
+}
+
+if (!module.parent) {
+  require('coz').render(__filename)
+}
+

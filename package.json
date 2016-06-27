@@ -24,10 +24,12 @@
   "dependencies": {
     "co": "^4.6.0",
     "execcli": "^4.0.6",
+    "expandglob": "^3.0.2",
     "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
+    "ape-deploying": "^5.0.2",
     "ape-formatting": "^1.0.0",
     "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
