@@ -104,6 +104,7 @@ Assets
 | Image | Path |
 | ----- | ---- |
 | <img src="assets/images/nodejs-banner.png" height="36" style="height:36px;" /> | [assets/images/nodejs-banner.png](assets/images/nodejs-banner.png) |
+| <img src="assets/images/npm-banner.png" height="36" style="height:36px;" /> | [assets/images/npm-banner.png](assets/images/npm-banner.png) |
 | <img src="assets/images/sugo-cloud-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-cloud-banner.png](assets/images/sugo-cloud-banner.png) |
 | <img src="assets/images/sugo-observer-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-observer-banner.png](assets/images/sugo-observer-banner.png) |
 | <img src="assets/images/sugo-spot-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-spot-banner.png](assets/images/sugo-spot-banner.png) |
