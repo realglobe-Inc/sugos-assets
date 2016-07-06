@@ -34,6 +34,16 @@ describe('favicon', function () {
       }
     )
   }))
+
+  it('Generate desktop favicon', () => co(function * () {
+    yield favicon('desktop',
+      `${__dirname}/../tmp/testing-desktop-favicon.svg`,
+      {
+        name: 'hoge-hoge-hoge',
+        color: '#38A'
+      }
+    )
+  }))
 })
 
 /* global describe, before, after, it */
