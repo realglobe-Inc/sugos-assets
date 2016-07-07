@@ -8,6 +8,7 @@ const apeTmpl = require('ape-tmpl')
 
 module.exports = apeTmpl.mochaTestJsBud({
   src: [
+    `${__dirname}/../*.js`,
     `${__dirname}/../lib/**/*.js`
   ],
   dest: __dirname
