@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugos-assets#readme",
   "dependencies": {
-    "asfs": "^1.0.3",
+    "asfs": "^1.0.4",
     "co": "^4.6.0",
     "execcli": "^4.0.6",
     "expandglob": "^3.0.2",
