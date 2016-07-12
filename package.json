@@ -1,6 +1,6 @@
 {
   "name": "sugos-assets",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "Asset file generator",
   "main": "lib",
   "scripts": {
@@ -22,23 +22,23 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugos-assets#readme",
   "dependencies": {
-    "asfs": "^1.0.4",
+    "aglob": "^1.0.1",
+    "asfs": "^1.0.5",
     "co": "^4.6.0",
     "execcli": "^4.0.6",
-    "expandglob": "^3.0.2",
-    "filelink": "^3.0.3"
+    "filelink": "^3.0.4"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
-    "ape-deploying": "^5.0.2",
-    "ape-formatting": "^1.0.0",
+    "ape-deploying": "^5.0.3",
+    "ape-formatting": "^1.0.1",
     "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
     "ape-tasking": "^4.0.3",
-    "ape-testing": "^4.0.0",
-    "ape-tmpl": "^5.0.11",
+    "ape-testing": "^4.0.1",
+    "ape-tmpl": "^5.0.12",
     "ape-updating": "^4.0.4",
-    "coz": "^6.0.3",
+    "coz": "^6.0.5",
     "injectmock": "^2.0.0"
   },
   "engines": {
