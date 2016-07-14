@@ -1,6 +1,6 @@
 {
   "name": "sugos-assets",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Asset file generator",
   "main": "lib",
   "scripts": {
