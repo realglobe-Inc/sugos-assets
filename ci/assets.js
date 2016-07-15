@@ -17,10 +17,10 @@ apeTasking.runTasks('asset', [
   () => co(function * () {
     let banners = {
       'images/sugos-banner.png': [ 'sugos', {} ],
-      'images/sugo-cloud-banner.png': [ 'module', { name: 'SUGO-Cloud' } ],
-      'images/sugo-spot-banner.png': [ 'module', { name: 'SUGO-Spot' } ],
-      'images/sugo-terminal-banner.png': [ 'module', { name: 'SUGO-Terminal' } ],
-      'images/sugo-observer-banner.png': [ 'module', { name: 'SUGO-Obeserver' } ]
+      'images/sugo-cloud-banner.png': [ 'core', { name: 'SUGO-Cloud' } ],
+      'images/sugo-caller-banner.png': [ 'core', { name: 'SUGO-Caller' } ],
+      'images/sugo-actor-banner.png': [ 'core', { name: 'SUGO-Actor' } ],
+      'images/sugo-observer-banner.png': [ 'core', { name: 'SUGO-Observer' } ]
     }
     for (let filename of Object.keys(banners)) {
       let [type, config] = banners[ filename ]
