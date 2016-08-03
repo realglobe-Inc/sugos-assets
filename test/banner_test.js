@@ -31,7 +31,7 @@ describe('banner', function () {
       'core',
       `${__dirname}/../tmp/testing-sugos-core.svg`,
       {
-        name: 'sugo-cloud'
+        name: 'sugo-hub'
       }
     )
   }))

@@ -53,6 +53,7 @@ Asset file generator
 <!-- Section from "doc/guides/01.Installation.md.hbs" Start -->
 
 <a name="section-doc-guides-01-installation-md"></a>
+
 Installation
 -----
 
@@ -66,6 +67,7 @@ $ npm install sugos-assets --save
 <!-- Section from "doc/guides/02.Usage.md.hbs" Start -->
 
 <a name="section-doc-guides-02-usage-md"></a>
+
 Usage
 ---------
 
@@ -96,6 +98,7 @@ co(function * () {
 <!-- Section from "doc/guides/03.Assets.md.hbs" Start -->
 
 <a name="section-doc-guides-03-assets-md"></a>
+
 Assets
 -----
 
@@ -108,7 +111,7 @@ Assets
 | <img src="assets/images/npm-banner.png" height="36" style="height:36px;" /> | [assets/images/npm-banner.png](assets/images/npm-banner.png) |
 | <img src="assets/images/sugo-actor-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-actor-banner.png](assets/images/sugo-actor-banner.png) |
 | <img src="assets/images/sugo-caller-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-caller-banner.png](assets/images/sugo-caller-banner.png) |
-| <img src="assets/images/sugo-cloud-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-cloud-banner.png](assets/images/sugo-cloud-banner.png) |
+| <img src="assets/images/sugo-hub-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-hub-banner.png](assets/images/sugo-hub-banner.png) |
 | <img src="assets/images/sugo-observer-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-observer-banner.png](assets/images/sugo-observer-banner.png) |
 | <img src="assets/images/sugos-banner.png" height="36" style="height:36px;" /> | [assets/images/sugos-banner.png](assets/images/sugos-banner.png) |
 | <img src="assets/images/sugos-favicon.png" height="36" style="height:36px;" /> | [assets/images/sugos-favicon.png](assets/images/sugos-favicon.png) |
