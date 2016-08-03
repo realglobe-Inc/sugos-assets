@@ -17,7 +17,7 @@ apeTasking.runTasks('asset', [
   () => co(function * () {
     let banners = {
       'images/sugos-banner.png': [ 'sugos', {} ],
-      'images/sugo-hub-banner.png': [ 'core', { name: 'SUGO-Cloud' } ],
+      'images/sugo-hub-banner.png': [ 'core', { name: 'SUGO-Hub' } ],
       'images/sugo-caller-banner.png': [ 'core', { name: 'SUGO-Caller' } ],
       'images/sugo-actor-banner.png': [ 'core', { name: 'SUGO-Actor' } ],
       'images/sugo-observer-banner.png': [ 'core', { name: 'SUGO-Observer' } ]
