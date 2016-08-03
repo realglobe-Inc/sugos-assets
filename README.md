@@ -115,7 +115,7 @@ Assets
 | <img src="assets/images/sugo-observer-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-observer-banner.png](assets/images/sugo-observer-banner.png) |
 | <img src="assets/images/sugos-banner.png" height="36" style="height:36px;" /> | [assets/images/sugos-banner.png](assets/images/sugos-banner.png) |
 | <img src="assets/images/sugos-favicon.png" height="36" style="height:36px;" /> | [assets/images/sugos-favicon.png](assets/images/sugos-favicon.png) |
-| <img src="assets/images/sugos-overview.jpeg" height="36" style="height:36px;" /> | [assets/images/sugos-overview.jpeg](assets/images/sugos-overview.jpeg) |
+| <img src="assets/images/sugos-overview.png" height="36" style="height:36px;" /> | [assets/images/sugos-overview.png](assets/images/sugos-overview.png) |
 
 
 <!-- Section from "doc/guides/03.Assets.md.hbs" End -->
