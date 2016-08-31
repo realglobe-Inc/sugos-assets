@@ -23,14 +23,17 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugos-assets#readme",
   "dependencies": {
-    "aglob": "^1.0.2",
+    "aglob": "^1.0.3",
     "asfs": "^1.0.5",
     "co": "^4.6.0",
+    "dotpic": "^1.0.1",
     "execcli": "^4.0.8",
-    "filelink": "^3.0.5"
+    "filelink": "^3.0.6",
+    "svgpng": "^2.0.0",
+    "writeout": "^2.0.7"
   },
   "devDependencies": {
-    "amocha": "^1.0.11",
+    "amocha": "^1.0.14",
     "ape-deploying": "^5.0.5",
     "ape-formatting": "^1.0.1",
     "ape-releasing": "^4.0.4",
@@ -38,7 +41,7 @@
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
-    "coz": "^6.0.16",
+    "coz": "^6.0.17",
     "injectmock": "^2.0.0"
   },
   "engines": {
