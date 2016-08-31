@@ -10,6 +10,7 @@ process.chdir(`${__dirname}/..`)
 const apeTasking = require('ape-tasking')
 const co = require('co')
 const { banner, favicon, dot } = require('../lib')
+const svgpng = require('svgpng')
 
 const assetDir = `${__dirname}/../assets`
 
@@ -20,7 +21,10 @@ apeTasking.runTasks('asset', [
     }
     for (let filename of Object.keys(dots)) {
       let { data, options } = dots[ filename ]
-      yield dot(`${assetDir}/${filename}`, data, options)
+      let svgFile = `${assetDir}/${filename}`
+      yield dot(svgFile, data, options)
+      let pngFile = svgFile.replace(/svg$/, 'png')
+      yield svgpng(svgFile, pngFile)
     }
   }),
   () => co(function * () {

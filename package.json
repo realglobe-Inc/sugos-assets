@@ -23,10 +23,11 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugos-assets#readme",
   "dependencies": {
+    "acolor": "^1.1.0",
     "aglob": "^1.0.3",
     "asfs": "^1.0.5",
     "co": "^4.6.0",
-    "dotpic": "^1.0.1",
+    "dotpic": "^1.0.2",
     "execcli": "^4.0.8",
     "filelink": "^3.0.6",
     "svgpng": "^2.0.0",
