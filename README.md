@@ -114,6 +114,7 @@ Assets
 | <img src="assets/images/sugo-hub-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-hub-banner.png](assets/images/sugo-hub-banner.png) |
 | <img src="assets/images/sugo-observer-banner.png" height="36" style="height:36px;" /> | [assets/images/sugo-observer-banner.png](assets/images/sugo-observer-banner.png) |
 | <img src="assets/images/sugos-banner.png" height="36" style="height:36px;" /> | [assets/images/sugos-banner.png](assets/images/sugos-banner.png) |
+| <img src="assets/images/sugos-dot.svg" height="36" style="height:36px;" /> | [assets/images/sugos-dot.svg](assets/images/sugos-dot.svg) |
 | <img src="assets/images/sugos-favicon.png" height="36" style="height:36px;" /> | [assets/images/sugos-favicon.png](assets/images/sugos-favicon.png) |
 | <img src="assets/images/sugos-overview.png" height="36" style="height:36px;" /> | [assets/images/sugos-overview.png](assets/images/sugos-overview.png) |
 
