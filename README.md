@@ -130,7 +130,7 @@ Assets
 
 License
 -------
-This software is released under the [MIT License](https://github.com/realglobe-Inc/sugos-assets/blob/master/LICENSE).
+This software is released under the [Apache-2.0 License](https://github.com/realglobe-Inc/sugos-assets/blob/master/LICENSE).
 
 <!-- LICENSE End -->
 
@@ -141,8 +141,10 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [sugos][sugos_url]
++ [SUGOS][sugos_url]
++ [Realglobe][realglobe_url]
 
 [sugos_url]: https://github.com/realglobe-Inc/sugos
+[realglobe_url]: https://realglobe.jp/
 
 <!-- Links End -->
