@@ -4,8 +4,8 @@
   "description": "Asset file generator",
   "main": "lib",
   "scripts": {
-    "test": "./ci/test.js",
-    "prepublish": "./ci/build.js && ./ci/assets.js"
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js && node ./ci/assets.js"
   },
   "repository": "realglobe-Inc/sugos-assets",
   "keywords": [
@@ -17,14 +17,14 @@
     "email": "okunishitaka.com@gmail.com",
     "url": "http://okunishitaka.com"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/realglobe-Inc/sugos-assets/issues"
   },
   "homepage": "https://github.com/realglobe-Inc/sugos-assets#readme",
   "dependencies": {
     "acolor": "^1.1.0",
-    "aglob": "^1.0.3",
+    "aglob": "^2.0.1",
     "asfs": "^1.0.5",
     "co": "^4.6.0",
     "dotpic": "^1.0.2",
@@ -34,22 +34,19 @@
     "writeout": "^2.0.7"
   },
   "devDependencies": {
-    "amocha": "^1.0.14",
+    "amocha": "^2.0.0",
     "ape-deploying": "^5.0.5",
     "ape-formatting": "^1.0.1",
     "ape-releasing": "^4.0.4",
-    "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
     "coz": "^6.0.17",
-    "injectmock": "^2.0.0"
+    "injectmock": "^2.0.0",
+    "sugos-travis": "^2.0.5"
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+    "npm": ">=4"
   }
 }
