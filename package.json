@@ -43,7 +43,7 @@
     "ape-updating": "^4.0.5",
     "coz": "^6.0.17",
     "injectmock": "^2.0.0",
-    "sugos-travis": "^2.0.5"
+    "sugos-travis": "^2.0.6"
   },
   "engines": {
     "node": ">=6",
