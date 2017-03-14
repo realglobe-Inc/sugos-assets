@@ -16,18 +16,6 @@ const assetDir = `${__dirname}/../assets`
 
 apeTasking.runTasks('asset', [
   () => co(function * () {
-    let dots = {
-      'images/sugos-dot.svg': dot.sugos
-    }
-    for (let filename of Object.keys(dots)) {
-      let { data, options } = dots[ filename ]
-      let svgFile = `${assetDir}/${filename}`
-      yield dot(svgFile, data, options)
-      let pngFile = svgFile.replace(/svg$/, 'png')
-      yield svgpng(svgFile, pngFile)
-    }
-  }),
-  () => co(function * () {
     let banners = {
       'images/sugos-banner.png': [ 'sugos', {} ],
       'images/sugo-hub-banner.png': [ 'core', { name: 'SUGO-Hub' } ],
@@ -36,7 +24,7 @@ apeTasking.runTasks('asset', [
       'images/sugo-observer-banner.png': [ 'core', { name: 'SUGO-Observer' } ]
     }
     for (let filename of Object.keys(banners)) {
-      let [type, config] = banners[ filename ]
+      let [ type, config ] = banners[ filename ]
       yield banner(type, `${assetDir}/${filename}`, config)
     }
   }),
@@ -45,7 +33,7 @@ apeTasking.runTasks('asset', [
       'images/sugos-favicon.png': [ 'sugos', {} ]
     }
     for (let filename of Object.keys(favicons)) {
-      let [type, config] = favicons[ filename ]
+      let [ type, config ] = favicons[ filename ]
       yield favicon(type, `${assetDir}/${filename}`, config)
     }
   })
